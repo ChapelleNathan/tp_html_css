@@ -16,6 +16,19 @@ header{
 
 header>p{
     color: gray;
+    font-style: italic;
+}
+
+menu{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+menu>.logo{
+    width: min-content;
+    align-self: center;
 }
 
 nav>a{
@@ -23,4 +36,33 @@ nav>a{
     font-style: italic;
     text-decoration: none;
     padding: 1rem;
+}
+
+.navbar>nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.localisation{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.localisation>select{
+    background-color: white;
+    border: none;
+}
+
+.navlinks{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.userInfo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
