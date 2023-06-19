@@ -19,13 +19,13 @@ p{
 header{
     display: flex;
     justify-content: space-around;
-    padding: 1rem;
+    padding-block: 1rem;
     width: 100%;
     background-color: black;
 }
 
 header>p{
-    color: gray;
+    color: #f3f3f3;
     font-style: italic;
 }
 
@@ -71,6 +71,7 @@ nav>a{
     display: flex;
     gap: 1rem;
     list-style-type: none;
+    padding: 0;
 }
 
 .userInfo{
@@ -83,6 +84,7 @@ nav>a{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-bottom: 4rem;
 }
 
 .toto{
@@ -109,4 +111,67 @@ hgroup>h2{
 
 .wallpaper>.button{
     margin-top: 2.5rem;
+}
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.featured>nav{
+    padding-block: 1rem;
+    border-top: solid 1px #cbcbcb;
+    border-bottom: solid 1px #cbcbcb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circles{
+    display: flex;
+    gap: 4px;
+}
+
+.circle1{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 100%;
+
+}
+.circle2{
+    width: 15px;
+    height: 15px;
+    background-color: #cbcbcb;
+    border-radius: 100%;
+}
+.circle3{
+    width: 15px;
+    height: 15px;
+    background-color: #cbcbcb;
+    border-radius: 100%;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.price{
+    display: flex;
+    justify-content: space-around;
+}
+.card>h2{
+    text-align: center;
+}
+.wrong_price{
+    color: #cbcbcb;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.price{
+    font-size: 20px;
 }
