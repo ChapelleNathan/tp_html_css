@@ -33,6 +33,7 @@ menu{
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    padding:0;
     margin-top: 4rem;
 }
 
@@ -79,9 +80,7 @@ nav>a{
 
 .presentation{
     display: grid;
-    grid-template-columns: 50rem 50rem;
-    grid-template-rows: auto;
-    justify-content: center;
+    grid-template-columns: 47rem 47rem;
 }
 
 .banniere{
@@ -101,7 +100,15 @@ nav>a{
 .wallpaper{
     grid-row-start: 2;
     background-color: #f3f3f3;
+    width: 705px;
+    height: 340px;
+    justify-self: end;
+}
+.wallpaper>div{
     padding: 3rem;
+}
+.wallpaper>div>hgroup{
+    margin-bottom: 3rem;
 }
 hgroup>h2{
     margin-bottom: 0.8rem;
