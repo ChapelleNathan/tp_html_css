@@ -66,3 +66,34 @@ nav>a{
     gap: 1rem;
     align-items: center;
 }
+
+.presentation{
+    display: grid;
+    grid-template-columns: 45rem 45rem;
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#banniere{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 90rem;
+}
+
+#design{
+    grid-row-start: 2;
+}
+
+.wallpaper{
+    grid-row-start: 2;
+    background-color: #f3f3f3;
+    padding: 3rem;
+}
+hgroup>h2{
+    margin-bottom: 0.8rem;
+}
+
+.wallpaper>.button{
+    margin-top: 2.5rem;
+}
