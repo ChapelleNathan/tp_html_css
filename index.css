@@ -157,7 +157,6 @@ hgroup>h2{
 
 .items{
     display: flex;
-    justify-content: center;
     margin-top: 2rem;
     justify-content: space-between;
 }
@@ -179,10 +178,9 @@ hgroup>h2{
     font-size: 20px;
 }
 
-.collections{
+.collections, .follow{
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
     margin-block: 3rem;
 }
@@ -196,15 +194,16 @@ hgroup>h2{
     font-size: 2.2rem;
 }
 
-.collections>hgroup>h2{
+.collections>hgroup>h2, .promotions>.leftSide>hgroup>h2{
     margin-bottom: 0.2rem;
 }
-.collections>hr{
+.collections>hr, .promotions>.leftSide>hr, .follow>hr{
     width: 5rem;
     margin-block: 2rem;
-}
+    margin-inline: 0;
 
-.collections>p{
+}
+.collections>p, .promotions>.leftSide>p{
     margin-bottom: 2rem;
     color: #858585;
 }
@@ -212,4 +211,129 @@ hgroup>h2{
 .collections>img{
     width: 100%;
     object-fit: cover;
+}
+
+.promotions{
+    display: flex;
+    margin-block: 3rem;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.promotions>.leftSide>button{
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.follow>hr, .collections>hr{
+    align-self: center;
+}
+
+.helps{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-block: 4rem;
+    margin-block-end: 7rem;
+}
+
+.helps_card>img{
+    margin-block: 1rem;
+}
+
+.helps_card>hgroup>h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.helps_card>hgroup>p{
+    color: #858585;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.toto{
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    color: white;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+}
+
+.upper>.informations{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.upper>.informations>h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.upper>.informations>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.upper>.newsletter>form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.upper>.newsletter>form>button{
+    width: fit-content;
+    background-color: white;
+    padding-inline: 2rem;
+    padding-block: 0.5rem;
+    border: none;
+}
+
+.upper>.newsletter>form>input{
+    border-radius: 0px;
+    border: none;
+    padding-block: 0.5rem;
+}
+
+.bi-arrow-up-circle-fill{
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+
+.bi-arrow-up-circle-fill:visited{
+    color: white;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1rem;
+}
+#bottom_separator{
+    width: 100%;
+}
+.socials>ul{
+    display: flex;
+    gap: 0.5rem;
+}
+
+#kaban{
+    color: #d2b997;
 }
