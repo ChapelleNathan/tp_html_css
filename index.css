@@ -542,3 +542,9 @@ footer{
         gap: 2rem;
     }
 }
+
+@media (max-width:1300px) {
+    body{
+        overflow-x: hidden;
+    }
+}
