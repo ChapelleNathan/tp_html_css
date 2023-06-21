@@ -1,39 +1,39 @@
 @font-face {
     font-family: 'futura-book';
-    src: url('/fonts/futura_book_font-webfont.woff2') format('woff2');
+    src: url('fonts/futura_book_font-webfont.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'futura-medium';
-    src: url('/fonts/futura_medium_bt-webfont.woff2') format('woff2');
+    src: url('fonts/futura_medium_bt-webfont.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'futura-light';
-    src: url('/fonts/futura-light-webfont.woff2') format('woff2');
+    src: url('fonts/futura-light-webfont.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'nimbus-sans';
-    src: url('/fonts/nimbus-sans-l.regular-webfont.woff2') format('woff2');
+    src: url('fonts/nimbus-sans-l.regular-webfont.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'nimbus';
-    src: url('/fonts/nimbusromno9l-regita-webfont.woff2') format('woff2');
+    src: url('fonts/nimbusromno9l-regita-webfont.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'sofia-pro';
-    src: url('/fonts/sofia_pro_regular-webfont.woff2') format('woff2');
+    src: url('fonts/sofia_pro_regular-webfont.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'sofia-pro-semibold';
-    src: url('/fonts/sofia_pro_semibold-webfont.woff2') format('woff2');
+    src: url('fonts/sofia_pro_semibold-webfont.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'soffia-pro-light';
-    src: url('/fonts/sofia-pro-light-webfont.woff2') format('woff2');
+    src: url('fonts/sofia-pro-light-webfont.woff2') format('woff2');
 }
